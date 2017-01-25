@@ -1,7 +1,7 @@
 # subsToolkit
 
-A toolkit for substratum themers which can decompile individual system & user apks 
-and/or batch decompile groups of system & user apks in multiple projects.
+A Windows, apktool based toolkit for substratum themers which can decompile individual 
+system & user apks and/or batch decompile groups of system & user apks in multiple projects.
 
 Java MUST be installed for this toolkit to work.
 
