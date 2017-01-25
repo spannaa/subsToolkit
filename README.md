@@ -1,30 +1,32 @@
 # subsToolkit
 
-A toolkit for substratum themers working with apks within multiple projects.
+A toolkit for substratum themers which decompiles apks within multiple projects.
 
 Any number of self-contained project folders can be created and worked with and each 
 project folder can contain any number of apks.
 
-When decompiling or batch decompiling apks & jars, any previously installed frameworks 
+When decompiling or batch decompiling apks, any previously installed frameworks 
 are deleted and the frameworks for the project you're working in are installed automatically.
 This enables different roms to be worked on without their frameworks getting mixed up.
 
+Running Cleanup.bat after quitting will delete all installed frameworks and log.txt
+
 WHAT IT CAN DO
 
-  - Decompile
-  - Batch decompile
+  - Decompile individual system & user apks
+  - Batch decompile folders containing system & user apks
 
 SETUP
 
-1. Java MUST be installed for this tool to work. Java 7 (JRE 1.7) is recommended.
+1. Java MUST be installed for this tool to work.
 
 2. Create a project folder to work in - this could be named after the rom you're working
-   with or you could just use a generic folder name if you're only working with user apps.
+   with, theme ready gapps or just a generic folder name if you're only working with user apps.
 
 3. Copy ALL of the framework apks from the rom you're working with into the 'frameworks'
    folder of the project folder.
 
-4. Copy all of the apks & jars from the rom you're working with into the 'files_in' folder 
+4. Copy all of the apks from the rom you're working with into the 'files_in' folder 
    of the project folder.
 
 5. Use the menu to select tasks and execute them.
