@@ -138,7 +138,7 @@ echo.
 set /P INPUT=- Enter the folders name : %=%
 set projectFolder= %INPUT: =_%
 REM Create projectFolder and sub folders
-if not exist "%INPUT%" mkdir "%INPUT: =_%", "%INPUT: =_%\frameworks", "%INPUT: =_%\files_in", "%INPUT: =_%\files_out", "%INPUT: =_%\working"
+if not exist "%INPUT%" mkdir "%INPUT: =_%", "%INPUT: =_%\frameworks", "%INPUT: =_%\files_in", "%INPUT: =_%\working"
 echo.
 echo   Project folder: %projectFolder% has been created
 echo.
