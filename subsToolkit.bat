@@ -313,7 +313,7 @@ echo  project folder can contain any number of apks.
 echo.
 echo  Running Cleanup.bat after quitting will delete all installed frameworks and log.txt
 echo.
-echo  The toolkit currently uses apktool_2.2.2.jar. To switch to a different version, copy any 
+echo  The toolkit currently uses apktool_2.2.3.jar. To switch to a different version, copy any 
 echo  apktool_2.x.x.jar version into the 'tools' folder and rename it 'apktool.jar'
 echo.
 echo  The default compression level is '9', The default maximum memory (heap) size is '512'mb 
