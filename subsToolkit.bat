@@ -9,7 +9,6 @@ subsToolkit 0 2>> log.txt
 
 :SkipMe
 mode con:cols=100 lines=72
-set compression=9
 set currentApp=None
 set heapy=512
 set projectFolder=None
@@ -40,10 +39,9 @@ echo.
 echo   Spannaa @ XDA
 echo.
 echo  --------------------------------------------------------------------------------------------------
-echo   Compression Level: %compression%   ^|  Java Heap Size: %heapy%mb
+echo   Current Project:    %projectFolder% 
 echo.
-echo.
-echo   Current Project: %projectFolder%  ^|  Current App: %currentApp% 
+echo   Current App:        %currentApp% 
 echo  --------------------------------------------------------------------------------------------------
 echo.
 REM Check if there are any existing project folders and redirect to CreateProjectFolder if not
@@ -70,13 +68,11 @@ echo    5.  Decompile a system apk
 echo.
 echo    6.  Batch decompile all apks in a project folder
 echo.
-echo    7.  Select compression level for apks
+echo    7.  Set Max Memory Size (Default: 512mb, Currently %heapy%mb)
 echo.
-echo    8.  Set Max Memory Size (Only use if getting stuck at decompiling/compiling)
+echo    8.  Setup, notes ^& credits
 echo.
-echo    9.  Setup, notes ^& credits
-echo.
-echo   10.  Quit
+echo    9.  Quit
 echo.
 echo  --------------------------------------------------------------------------------------------------
 echo.
@@ -87,13 +83,12 @@ if %menunr%==3 goto ApkSelect
 if %menunr%==4 goto DecompileUserApk
 if %menunr%==5 goto DecompileSystemApk
 if %menunr%==6 goto DecompileAll
-if %menunr%==7 goto SetCompression
-if %menunr%==8 goto MaxMemorySize
-if %menunr%==9 goto Help
-if %menunr%==10 goto Quit
+if %menunr%==7 goto MaxMemorySize
+if %menunr%==8 goto Help
+if %menunr%==9 goto Quit
 REM If an out of range number is entered, redirect to OutOfRangeError
 if %menunr%==0 goto OutOfRangeError
-if %menunr% GTR 15 goto OutOfRangeError
+if %menunr% GTR 9 goto OutOfRangeError
 
 :ProjectFolderSelect
 set projectFolder=None
@@ -269,12 +264,6 @@ echo   All decompiled apks can be found in your
 echo   %projectFolder%\working folder
 goto Pause
 
-:SetCompression
-set /P INPUT=- Enter Compression Level (0-9) : %=%
-set compression=%INPUT%
-cls
-goto ReStart
-
 :MaxMemorySize
 set /P INPUT=- Enter max size for java heap space in megabytes (eg 512) : %=%
 set heapy=%INPUT%
@@ -316,8 +305,8 @@ echo.
 echo  The toolkit currently uses apktool_2.2.3.jar. To switch to a different version, copy any 
 echo  apktool_2.x.x.jar version into the 'tools' folder and rename it 'apktool.jar'
 echo.
-echo  The default compression level is '9', The default maximum memory (heap) size is '512'mb 
-echo  These should not need to be changed unless there is aproblem with decompiling/compiling.
+echo  The default maximum memory (heap) size is '512'mb 
+echo  This should not need to be changed unless there is aproblem with decompiling/compiling.
 echo.
 echo  CREDITS
 echo.
