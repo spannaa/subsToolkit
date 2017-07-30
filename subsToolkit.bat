@@ -310,7 +310,7 @@ echo  This should not need to be changed unless there is aproblem with decompili
 echo.
 echo  CREDITS
 echo.
-echo  SubstratumThemersApkToolkit is based on apkToolkit: Spannaa @ XDA
+echo  subsToolkit is based on apkToolkit: Spannaa @ XDA
 echo  apkToolkit is based on Apk Manager: Daneshm90 @ XDA
 echo  apktool.jar: iBotPeaches @ XDA & Brut.all @ XDA
 echo.
