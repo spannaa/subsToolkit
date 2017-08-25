@@ -27,3 +27,5 @@ Running Cleanup.bat after quitting will delete all installed frameworks and log.
    of the project folder.
 
 4. Use the menu to select tasks and execute them.
+
+5. To to clone, build & update apktool in subsToolkit, run update_subsToolkit.bat
