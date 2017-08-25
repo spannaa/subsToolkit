@@ -305,7 +305,7 @@ echo.
 echo  The toolkit currently uses apktool_2.2.4.jar. To switch to a different version, copy any 
 echo  apktool_2.x.x.jar version into the 'tools' folder and rename it 'apktool.jar'
 echo.
-echo  To to clone, build & update apktool in subsToolkit, run update_subsToolkit.bat
+echo  To clone, build and update apktool in subsToolkit, run update_subsToolkit.bat
 echo.
 echo  The default maximum memory (heap) size is '512'mb 
 echo  This should not need to be changed unless there is aproblem with decompiling/compiling.
