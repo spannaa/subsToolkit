@@ -23,7 +23,7 @@ Running Cleanup.bat after quitting will delete all installed frameworks and log.
 2. Copy ALL of the framework apks from the rom you're working with into the 'frameworks'
    folder of the project folder.
 
-3. Copy all of the apks from the rom you're working with into the 'files_in' folder 
+3. Copy all of the apks you want to theme from the rom you're working with into the 'files_in' folder 
    of the project folder.
 
 4. Use the menu to select tasks and execute them.
