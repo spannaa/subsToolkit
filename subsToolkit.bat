@@ -347,7 +347,7 @@ echo  CREDITS
 echo.
 echo  subsToolkit is based on apkToolkit: Spannaa @ XDA
 echo  apkToolkit is based on Apk Manager: Daneshm90 @ XDA
-echo  apktool: iBotPeaches @ XDA & Brut.all @ XDA
+echo  apktool: iBotPeaches @ XDA ^& Brut.all @ XDA
 echo  7za standalone command line version of 7-Zip: Igor Pavlov
 echo.
 echo  --------------------------------------------------------------------------------------------------
