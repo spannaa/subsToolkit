@@ -334,7 +334,7 @@ echo  New releases of apktool can be found at: https://ibotpeaches.github.io/Apk
 echo  To update subsToolkit, download the new apktool_x.x.x.jar, add it to the 'tools' folder 
 echo  and select it via option #7 in the subsToolkit menu.
 echo.
-echo  To build and add the latest snapshot version of apktool to subsToolkit (git MUST be installed) 
+echo  To build and add the latest snapshot version of apktool to subsToolkit (Git MUST be installed) 
 echo  run build_apktool_snapshot.bat, wait for the build to complete and then select the newly built
 echo  snapshot via option #7 in the subsToolkit menu.
 echo.
