@@ -12,7 +12,7 @@ When decompiling or batch decompiling apks, any previously installed frameworks
 are deleted and the frameworks for the project you're working in are installed automatically.
 This enables different roms to be worked on without their frameworks getting mixed up.
 
-Running Cleanup.bat after quitting will delete all installed frameworks and log.txt
+Running cleanup.bat after quitting will delete all installed frameworks and log.txt
 
 
 # Using subsToolkit
@@ -28,4 +28,5 @@ Running Cleanup.bat after quitting will delete all installed frameworks and log.
 
 4. Use the menu to select tasks and execute them.
 
-5. To to clone, build & update apktool in subsToolkit, run update_subsToolkit.bat
+5. To build and add the latest snapshot version of apktool to subsToolkit (Git MUST be installed) 
+   run build_apktool_snapshot.bat
