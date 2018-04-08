@@ -20,5 +20,3 @@ Running cleanup.bat after quitting will delete all installed frameworks and log.
 3. Copy all of the apks you want to theme from the rom you're working with into the 'files_in' folder of the project folder.
 
 4. Use the menu to select tasks and execute them.
-
-5. To build and add the latest snapshot version of apktool to subsToolkit (Git MUST be installed) run build_apktool_snapshot.bat
