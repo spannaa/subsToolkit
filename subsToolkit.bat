@@ -10,7 +10,7 @@ subsToolkit 0 2>> log.txt
 :SkipMe
 mode con:cols=100 lines=72
 set currentApp=None
-set apktool=apktool_2.3.2.jar
+set apktool=apktool_2.3.3.jar
 set heapy=512
 set projectFolder=None
 java -version 
